@@ -23,4 +23,4 @@ This time i didn't write exact commands to write in your Dockerfile. I wrote wha
 
 To verify if it works correctly, go to browser with the 127.0.0.1:port_you_exposed, you must see this README renderes as web page.
 
-#```docker run --name grip -v ${PWD}:/data -p 6419:6419 grip README.md 0.0.0.0
+#``` docker run --name grip -v ${PWD}:/data -p 6419:6419 grip README.md 0.0.0.0
